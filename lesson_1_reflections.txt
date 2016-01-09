@@ -1,0 +1,38 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+The diff pointed out all of the differences and put them in a short area of vertical space,
+making it easy to spot the typo. Without using diff, I would have had very little chance
+of spotting the typo amongst so many correctly spelled words and words that hadn't been changed
+from the previous version of the file that worked.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+If you find something doesn't work anymore after you changed a file but you made many changes and
+aren't sure which change caused the problem, it's helpful to be able to go back to a previous version
+that you worked on to see which versions still work and when the bug was introduced.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git,
+vs having versions automatically saved, like Google Docs does?
+
+Manually committing makes sense because the user chooses when to commit to make sure the versions are both working
+and meaningful. Committing automatically could result in a version of code that won't run or was updated with incomplete changes.
+On the other hand, having to commit manually means a programmer could forget to commit.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit,
+while others, like Google Docs, treat each file separately?
+
+Git was designed for programmers tracking versions of code. Code often consists of multiple files that are interlinked
+and need to be considered as a whole to run and be meaningful. Google Docs was created for documents, such as word
+processing files and spreadsheets, and these file types are more likely to be meaningful separately.
+
+How can you use the commands git log and git diff to view the history of files?
+
+You can use git log and git diff to easily see all of the versions and commits and exactly what changed between each version.
+
+How might using version control make you more confident to make changes that could break something?
+
+Since you can always roll back as well as easily see the changes made to help identify the problems and fix them.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+I want to try using GIT to track my udacity projects, even the exercises
