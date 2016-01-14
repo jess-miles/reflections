@@ -4,3 +4,13 @@ A remote repository keeps your work in a central location where you access it fr
 computers. It is also a backup, so if you lose a hard drive on your local, you don't 
 have to lose all of your work. Lastly, it provides a central location where others you
 are working with can go to see the latest version and publish their own changes.
+
+Why might you want to always pull changes manually rather than having Git automatically
+stay up-to-date with your remote repository?
+
+You would want to specify when to pull changes manually because you might be working in
+a branch and collaborating with someone, and you don't want to pull the other person's changes
+until you're finished with your own. How does git deal with changes made to a single branch that
+might conflict with each other?
+
+
