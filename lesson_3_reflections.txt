@@ -13,4 +13,15 @@ a branch and collaborating with someone, and you don't want to pull the other pe
 until you're finished with your own. How does git deal with changes made to a single branch that
 might conflict with each other?
 
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+You fork a whole repository on git hub if you want to start with the base of someone else's
+code, but want to make your own version and give credeit to the person who made the original.
+You clone a repository when you want to work on the repository locally. You create a branch when you want
+to make changes that are experimental, such as a bug fix or new feature, without messing
+with the production code or stable version. They are really each totally different concepts,
+and it doesn't seem like they should be used interchangeably.
+
+
+
 
