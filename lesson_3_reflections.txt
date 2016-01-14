@@ -1,0 +1,6 @@
+When would you want to use a remote repository rather than keeping all your work local?
+
+A remote repository keeps your work in a central location where you access it from other
+computers. It is also a backup, so if you lose a hard drive on your local, you don't 
+have to lose all of your work. Lastly, it provides a central location where others you
+are working with can go to see the latest version and publish their own changes.
