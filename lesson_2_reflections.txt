@@ -10,3 +10,33 @@ staging area as you update them, and then commit when you're ready without havin
 that you've changed since you last committed. Additionally, you can add only those files that you want to be committed
 at once, even if you have changed other files. This allows you more flexibility with how you logclaly structure your commits,
 even if you want to get all of the work done for multiple changes at once.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+By adding files as you make changes and then reviewing the changes before committing. This way, you can see what changes
+have been made before committing them, and can make sure they go together logically.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Branches are helpful in keeping experimental changes separate from changes made to the master, or production code.
+This is helpful if the programmer is trying to learn a new concept and seeing if she can implement it, but isn't sure
+she will want to make the updates in the production code, or whether it will work out the way she wants. Major changes
+can be made on another branch, and then the branch merged with master.
+
+How do the diagrams help you visualize the branch structure?
+
+Diagrams are helpful to see where the branches split, and which commits are reachable from other commits or branch tips.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+Merging two branches together combines the code into one file and makes that the new branch tip. We represent it in the
+diagram as the branches converging because after a merge the commits from both branches are reachable from the new
+branch tip. The merge commit references both parents form the previous branch tips.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Automatic merging is great if there are no lines that seem to have been changed by different people. Since git
+can't actually read the code and know what the programmers each intended when they made their changes, it can't
+make the decision about whose changes work better. In that case, it's better to make a conflict and let the
+programmers discuss the best way to make the update.
+
