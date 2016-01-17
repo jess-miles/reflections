@@ -22,6 +22,12 @@ to make changes that are experimental, such as a bug fix or new feature, without
 with the production code or stable version. They are really each totally different concepts,
 and it doesn't seem like they should be used interchangeably.
 
+What is the benefit of having a copy of the last known state of the remote stored locally?
 
+The benefit is that your local git can know what changes you made locally since the time you last
+pulled or cloned. This way, you can know some diffs even when you're offline. You can also know the diff
+between your local and the remote if you have internet access, and git can easily tell where you
+diverged, because it can compare the last known updated remote on the local with the current state
+of the remote and see where the local and remote diverged.
 
 
