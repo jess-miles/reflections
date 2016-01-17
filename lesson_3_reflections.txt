@@ -30,4 +30,14 @@ between your local and the remote if you have internet access, and git can easil
 diverged, because it can compare the last known updated remote on the local with the current state
 of the remote and see where the local and remote diverged.
 
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+If you weren't using Git or GitHub, you would have to keep your files in a central location so
+multiple people could access and edit them. It might be easier not to have to use the command line and learn
+all of the git commands, but it would be harder because you wouldn't be able to easily keep track of
+what changes were made when, what the latest and most stable version of the code was, or merge changes when
+different people are working on changes of the same files at the same time.
+
+
+
 
