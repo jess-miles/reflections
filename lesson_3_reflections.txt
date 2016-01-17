@@ -38,6 +38,17 @@ all of the git commands, but it would be harder because you wouldn't be able to 
 what changes were made when, what the latest and most stable version of the code was, or merge changes when
 different people are working on changes of the same files at the same time.
 
+When would you want to make changes in a separate branch rather than directly in master?
+What benefits does each approach have?
+
+You would want to make changes in a separate branch when your changes are testing or experimental and you
+want someone else to have a look and approve before actually changing master and potentially breaking it.
+It is more time-consuming to create another branch rather than adding directly to master, however this
+approach also improves quality control and makes it more likely that the changes made to master will
+be properly approved and vetted by other team members so that not only is the code working, but the
+other team members have read the new code and are aware of the changes made tha tmay affect how they edit
+the code or implement changes in the future.
+
 
 
 
